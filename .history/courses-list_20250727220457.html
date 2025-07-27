@@ -52,187 +52,132 @@
   </section>
 
 <main class="max-w-7xl mx-auto px-4 py-12">
-    <!-- Undergraduate Courses -->
     <h2 class="text-3xl font-bold text-blue-900 mb-8 text-center">Undergraduate Courses</h2>
-    <div id="course-list" class="space-y-12 mb-16">
-        <!-- Row 1 -->
-        <div class="grid md:grid-cols-3 gap-8">
-            <!-- Arts -->
-            <div>
-                <h3 class="text-xl font-bold text-blue-800 mb-2">Arts</h3>
-                <ul class="list-disc ml-6 text-gray-700 space-y-2">
-                    <li><button class="course-btn" data-course="english">B.A. English and Literary Studies</button></li>
-                    <li><button class="course-btn" data-course="history">B.A. History and International Studies</button></li>
-                    <li><button class="course-btn" data-course="philosophy">B.A. Philosophy</button></li>
-                    <li><button class="course-btn" data-course="religious-studies">B.A. Religious Studies</button></li>
-                </ul>
-            </div>
-            <!-- Biological Sciences -->
-            <div>
-                <h3 class="text-xl font-bold text-blue-800 mb-2">Biological Sciences</h3>
-                <ul class="list-disc ml-6 text-gray-700 space-y-2">
-                    <li><button class="course-btn" data-course="biology">B.Sc. Biology</button></li>
-                    <li><button class="course-btn" data-course="biochemistry">B.Sc. Biochemistry</button></li>
-                    <li><button class="course-btn" data-course="biotechnology">B.Sc. Biotechnology</button></li>
-                    <li><button class="course-btn" data-course="microbiology">B.Sc. Microbiology</button></li>
-                </ul>
-            </div>
-            <!-- Computer Science -->
-            <div>
-                <h3 class="text-xl font-bold text-blue-800 mb-2">Computer Science</h3>
-                <ul class="list-disc ml-6 text-gray-700 space-y-2">
-                    <li><button class="course-btn" data-course="computer-science">B.Sc. Computer Science</button></li>
-                    <li><button class="course-btn" data-course="cyber-security">B.Sc. Cyber Security</button></li>
-                    <li><button class="course-btn" data-course="software-engineering">B.Sc. Software Engineering</button></li>
-                </ul>
-            </div>
+    <div id="course-list" class="grid md:grid-cols-3 gap-8 mb-16">
+        <!-- Column 1 -->
+        <div>
+            <h3 class="text-xl font-bold text-blue-800 mb-2">Arts</h3>
+            <ul class="list-disc ml-6 text-gray-700 space-y-2">
+                <li><button class="course-btn" data-course="english">B.A. English and Literary Studies</button></li>
+                <li><button class="course-btn" data-course="history">B.A. History and International Studies</button></li>
+                <li><button class="course-btn" data-course="philosophy">B.A. Philosophy</button></li>
+                <li><button class="course-btn" data-course="religious-studies">B.A. Religious Studies</button></li>
+            </ul>
+            <h3 class="text-xl font-bold text-blue-800 mt-6 mb-2">Biological Sciences</h3>
+            <ul class="list-disc ml-6 text-gray-700 space-y-2">
+                <li><button class="course-btn" data-course="biology">B.Sc. Biology</button></li>
+                <li><button class="course-btn" data-course="biochemistry">B.Sc. Biochemistry</button></li>
+                <li><button class="course-btn" data-course="biotechnology">B.Sc. Biotechnology</button></li>
+                <li><button class="course-btn" data-course="microbiology">B.Sc. Microbiology</button></li>
+            </ul><h3 class="text-xl font-bold text-blue-800 mb-2">Computer Science</h3>
+            <ul class="list-disc ml-6 text-gray-700 space-y-2">
+                <li><button class="course-btn" data-course="computer-science">B.Sc. Computer Science</button></li>
+                <li><button class="course-btn" data-course="cyber-security">B.Sc. Cyber Security</button></li>
+                <li><button class="course-btn" data-course="software-engineering">B.Sc. Software Engineering</button></li>
+            </ul>
         </div>
-        <!-- Row 2 -->
-        <div class="grid md:grid-cols-3 gap-8">
-            <!-- Education -->
-            <div>
-                <h3 class="text-xl font-bold text-blue-800 mb-2">Education</h3>
-                <ul class="list-disc ml-6 text-gray-700 space-y-2">
-                    <li><button class="course-btn" data-course="ed-biology">B.Ed. Biology</button></li>
-                    <li><button class="course-btn" data-course="ed-chemistry">B.Ed. Chemistry</button></li>
-                    <li><button class="course-btn" data-course="ed-computer-science">B.Ed. Computer Science</button></li>
-                    <li><button class="course-btn" data-course="ed-english">B.Ed. English</button></li>
-                    <li><button class="course-btn" data-course="ed-mathematics">B.Ed. Mathematics</button></li>
-                    <li><button class="course-btn" data-course="ed-physics">B.Ed. Physics</button></li>
-                </ul>
-            </div>
-            <!-- Engineering -->
-            <div>
-                <h3 class="text-xl font-bold text-blue-800 mb-2">Engineering</h3>
-                <ul class="list-disc ml-6 text-gray-700 space-y-2">
-                    <li><button class="course-btn" data-course="civil-eng">B.Eng. Civil Engineering</button></li>
-                    <li><button class="course-btn" data-course="computer-eng">B.Eng. Computer Engineering</button></li>
-                    <li><button class="course-btn" data-course="electrical-eng">B.Eng. Electrical/Electronics Engineering</button></li>
-                    <li><button class="course-btn" data-course="mechanical-eng">B.Eng. Mechanical Engineering</button></li>
-                </ul>
-            </div>
-            <!-- Law -->
-            <div>
-                <h3 class="text-xl font-bold text-blue-800 mb-2">Law</h3>
-                <ul class="list-disc ml-6 text-gray-700 space-y-2">
-                    <li><button class="course-btn" data-course="law">LL.B. Law</button></li>
-                </ul>
-            </div>
+        <!-- Column 2 -->
+        <div>
+            
+            <h3 class="text-xl font-bold text-blue-800 mt-6 mb-2">Education</h3>
+            <ul class="list-disc ml-6 text-gray-700 space-y-2">
+                <li><button class="course-btn" data-course="ed-biology">B.Ed. Biology</button></li>
+                <li><button class="course-btn" data-course="ed-chemistry">B.Ed. Chemistry</button></li>
+                <li><button class="course-btn" data-course="ed-computer-science">B.Ed. Computer Science</button></li>
+                <li><button class="course-btn" data-course="ed-english">B.Ed. English</button></li>
+                <li><button class="course-btn" data-course="ed-mathematics">B.Ed. Mathematics</button></li>
+                <li><button class="course-btn" data-course="ed-physics">B.Ed. Physics</button></li>
+            </ul>
+            <h3 class="text-xl font-bold text-blue-800 mt-6 mb-2">Engineering</h3>
+            <ul class="list-disc ml-6 text-gray-700 space-y-2">
+                <li><button class="course-btn" data-course="civil-eng">B.Eng. Civil Engineering</button></li>
+                <li><button class="course-btn" data-course="computer-eng">B.Eng. Computer Engineering</button></li>
+                <li><button class="course-btn" data-course="electrical-eng">B.Eng. Electrical/Electronics Engineering</button></li>
+                <li><button class="course-btn" data-course="mechanical-eng">B.Eng. Mechanical Engineering</button></li>
+            </ul>
         </div>
-        <!-- Row 3 -->
-        <div class="grid md:grid-cols-3 gap-8">
-            <!-- Management and Social Sciences -->
-            <div>
-                <h3 class="text-xl font-bold text-blue-800 mb-2">Management and Social Sciences</h3>
-                <ul class="list-disc ml-6 text-gray-700 space-y-2">
-                    <li><button class="course-btn" data-course="accounting">B.Sc. Accounting</button></li>
-                    <li><button class="course-btn" data-course="business-admin">B.Sc. Business Administration</button></li>
-                    <li><button class="course-btn" data-course="economics">B.Sc. Economics</button></li>
-                    <li><button class="course-btn" data-course="mass-comm">B.Sc. Mass Communication</button></li>
-                    <li><button class="course-btn" data-course="political-science">B.Sc. Political Science</button></li>
-                    <li><button class="course-btn" data-course="psychology">B.Sc. Psychology</button></li>
-                    <li><button class="course-btn" data-course="sociology">B.Sc. Sociology</button></li>
-                </ul>
-            </div>
-            <!-- Medical Sciences -->
-            <div>
-                <h3 class="text-xl font-bold text-blue-800 mb-2">Medical Sciences</h3>
-                <ul class="list-disc ml-6 text-gray-700 space-y-2">
-                    <li><button class="course-btn" data-course="medical-lab">BMLS. Medical Laboratory Science</button></li>
-                    <li><button class="course-btn" data-course="nursing">B.NSc. Nursing Science</button></li>
-                    <li><button class="course-btn" data-course="public-health">B.Sc. Public Health</button></li>
-                </ul>
-            </div>
-            <!-- Natural & Applied Sciences -->
-            <div>
-                <h3 class="text-xl font-bold text-blue-800 mb-2">Natural & Applied Sciences</h3>
-                <ul class="list-disc ml-6 text-gray-700 space-y-2">
-                    <li><button class="course-btn" data-course="chemistry">B.Sc. Chemistry</button></li>
-                    <li><button class="course-btn" data-course="industrial-chemistry">B.Sc. Industrial Chemistry</button></li>
-                    <li><button class="course-btn" data-course="mathematics">B.Sc. Mathematics</button></li>
-                    <li><button class="course-btn" data-course="physics">B.Sc. Physics</button></li>
-                </ul>
-            </div>
+        <!-- Column 3 -->
+        <div>
+            <h3 class="text-xl font-bold text-blue-800 mb-2">Law</h3>
+            <ul class="list-disc ml-6 text-gray-700 space-y-2">
+                <li><button class="course-btn" data-course="law">LL.B. Law</button></li>
+            </ul>
+            <h3 class="text-xl font-bold text-blue-800 mt-6 mb-2">Management and Social Sciences</h3>
+            <ul class="list-disc ml-6 text-gray-700 space-y-2">
+                <li><button class="course-btn" data-course="accounting">B.Sc. Accounting</button></li>
+                <li><button class="course-btn" data-course="business-admin">B.Sc. Business Administration</button></li>
+                <li><button class="course-btn" data-course="economics">B.Sc. Economics</button></li>
+                <li><button class="course-btn" data-course="mass-comm">B.Sc. Mass Communication</button></li>
+                <li><button class="course-btn" data-course="political-science">B.Sc. Political Science</button></li>
+                <li><button class="course-btn" data-course="psychology">B.Sc. Psychology</button></li>
+                <li><button class="course-btn" data-course="sociology">B.Sc. Sociology</button></li>
+            </ul>
+            <h3 class="text-xl font-bold text-blue-800 mt-6 mb-2">Medical Sciences</h3>
+            <ul class="list-disc ml-6 text-gray-700 space-y-2">
+                <li><button class="course-btn" data-course="medical-lab">BMLS. Medical Laboratory Science</button></li>
+                <li><button class="course-btn" data-course="nursing">B.NSc. Nursing Science</button></li>
+                <li><button class="course-btn" data-course="public-health">B.Sc. Public Health</button></li>
+            </ul>
+            <h3 class="text-xl font-bold text-blue-800 mt-6 mb-2">Natural & Applied Sciences</h3>
+            <ul class="list-disc ml-6 text-gray-700 space-y-2">
+                <li><button class="course-btn" data-course="chemistry">B.Sc. Chemistry</button></li>
+                <li><button class="course-btn" data-course="industrial-chemistry">B.Sc. Industrial Chemistry</button></li>
+                <li><button class="course-btn" data-course="mathematics">B.Sc. Mathematics</button></li>
+                <li><button class="course-btn" data-course="physics">B.Sc. Physics</button></li>
+            </ul>
         </div>
     </div>
 
-    <!-- Postgraduate Courses -->
     <h2 class="text-3xl font-bold text-blue-900 mb-8 text-center">Postgraduate Courses</h2>
-    <div id="pg-course-list" class="space-y-12">
-        <!-- Row 1 -->
-        <div class="grid md:grid-cols-3 gap-8">
-            <!-- Arts -->
-            <div>
-                <h3 class="text-xl font-bold text-blue-800 mb-2">Arts</h3>
-                <ul class="list-disc ml-6 text-gray-700 space-y-2">
-                    <li><button class="course-btn" data-course="ma-fine-arts">M.A. Fine Arts</button></li>
-                    <li><button class="course-btn" data-course="ma-literature">M.A. Literature</button></li>
-                    <li><button class="course-btn" data-course="ma-music">M.A. Music</button></li>
-                </ul>
-            </div>
-            <!-- Business & Management -->
-            <div>
-                <h3 class="text-xl font-bold text-blue-800 mb-2">Business & Management</h3>
-                <ul class="list-disc ml-6 text-gray-700 space-y-2">
-                    <li><button class="course-btn" data-course="mba">MBA - Master of Business Administration</button></li>
-                </ul>
-            </div>
-            <!-- Computer Science -->
-            <div>
-                <h3 class="text-xl font-bold text-blue-800 mb-2">Computer Science</h3>
-                <ul class="list-disc ml-6 text-gray-700 space-y-2">
-                    <li><button class="course-btn" data-course="msc-computer-science">M.Sc. Computer Science</button></li>
-                    <li><button class="course-btn" data-course="msc-computer-eng">M.Sc. Computer Engineering</button></li>
-                </ul>
-            </div>
+    <div id="pg-course-list" class="grid md:grid-cols-3 gap-8">
+        <!-- Column 1 -->
+        <div>
+            <h3 class="text-xl font-bold text-blue-800 mb-2">Arts</h3>
+            <ul class="list-disc ml-6 text-gray-700 space-y-2">
+                <li><button class="course-btn" data-course="ma-fine-arts">M.A. Fine Arts</button></li>
+                <li><button class="course-btn" data-course="ma-literature">M.A. Literature</button></li>
+                <li><button class="course-btn" data-course="ma-music">M.A. Music</button></li>
+            </ul>
+            <h3 class="text-xl font-bold text-blue-800 mt-6 mb-2">Business & Management</h3>
+            <ul class="list-disc ml-6 text-gray-700 space-y-2">
+                <li><button class="course-btn" data-course="mba">MBA - Master of Business Administration</button></li>
+            </ul>
         </div>
-        <!-- Row 2 -->
-        <div class="grid md:grid-cols-3 gap-8">
-            <!-- Educational Administration -->
-            <div>
-                <h3 class="text-xl font-bold text-blue-800 mb-2">Educational Administration</h3>
-                <ul class="list-disc ml-6 text-gray-700 space-y-2">
-                    <li><button class="course-btn" data-course="med-educational-admin">M.Ed. Educational Administration</button></li>
-                </ul>
-            </div>
-            <!-- Engineering -->
-            <div>
-                <h3 class="text-xl font-bold text-blue-800 mb-2">Engineering</h3>
-                <ul class="list-disc ml-6 text-gray-700 space-y-2">
-                    <li><button class="course-btn" data-course="msc-civil-eng">M.Sc. Civil Engineering</button></li>
-                    <li><button class="course-btn" data-course="msc-electrical-eng">M.Sc. Electrical/Electronics Engineering</button></li>
-                    <li><button class="course-btn" data-course="msc-mechanical-eng">M.Sc. Mechanical Engineering</button></li>
-                </ul>
-            </div>
-            <!-- Law -->
-            <div>
-                <h3 class="text-xl font-bold text-blue-800 mb-2">Law</h3>
-                <ul class="list-disc ml-6 text-gray-700 space-y-2">
-                    <li><button class="course-btn" data-course="llm-law">LL.M. Law</button></li>
-                </ul>
-            </div>
+        <!-- Column 2 -->
+        <div>
+            <h3 class="text-xl font-bold text-blue-800 mb-2">Computer Science</h3>
+            <ul class="list-disc ml-6 text-gray-700 space-y-2">
+                <li><button class="course-btn" data-course="msc-computer-science">M.Sc. Computer Science</button></li>
+                <li><button class="course-btn" data-course="msc-computer-eng">M.Sc. Computer Engineering</button></li>
+            </ul>
+            <h3 class="text-xl font-bold text-blue-800 mt-6 mb-2">Educational Administration</h3>
+            <ul class="list-disc ml-6 text-gray-700 space-y-2">
+                <li><button class="course-btn" data-course="med-educational-admin">M.Ed. Educational Administration</button></li>
+            </ul>
         </div>
-        <!-- Row 3 -->
-        <div class="grid md:grid-cols-3 gap-8">
-            <!-- Natural Sciences -->
-            <div>
-                <h3 class="text-xl font-bold text-blue-800 mb-2">Natural Sciences</h3>
-                <ul class="list-disc ml-6 text-gray-700 space-y-2">
-                    <li><button class="course-btn" data-course="msc-biochemistry">M.Sc. Biochemistry</button></li>
-                    <li><button class="course-btn" data-course="msc-chemistry">M.Sc. Chemistry</button></li>
-                    <li><button class="course-btn" data-course="msc-mathematics">M.Sc. Mathematics</button></li>
-                    <li><button class="course-btn" data-course="msc-physics">M.Sc. Physics</button></li>
-                </ul>
-            </div>
-            <!-- Public Health -->
-            <div>
-                <h3 class="text-xl font-bold text-blue-800 mb-2">Public Health</h3>
-                <ul class="list-disc ml-6 text-gray-700 space-y-2">
-                    <li><button class="course-btn" data-course="msc-public-health">M.Sc. Public Health</button></li>
-                </ul>
-            </div>
-            <!-- Empty for alignment -->
-            <div></div>
+        <!-- Column 3 -->
+        <div>
+            <h3 class="text-xl font-bold text-blue-800 mb-2">Engineering</h3>
+            <ul class="list-disc ml-6 text-gray-700 space-y-2">
+                <li><button class="course-btn" data-course="msc-civil-eng">M.Sc. Civil Engineering</button></li>
+                <li><button class="course-btn" data-course="msc-electrical-eng">M.Sc. Electrical/Electronics Engineering</button></li>
+                <li><button class="course-btn" data-course="msc-mechanical-eng">M.Sc. Mechanical Engineering</button></li>
+            </ul>
+            <h3 class="text-xl font-bold text-blue-800 mt-6 mb-2">Law</h3>
+            <ul class="list-disc ml-6 text-gray-700 space-y-2">
+                <li><button class="course-btn" data-course="llm-law">LL.M. Law</button></li>
+            </ul>
+            <h3 class="text-xl font-bold text-blue-800 mt-6 mb-2">Natural Sciences</h3>
+            <ul class="list-disc ml-6 text-gray-700 space-y-2">
+                <li><button class="course-btn" data-course="msc-biochemistry">M.Sc. Biochemistry</button></li>
+                <li><button class="course-btn" data-course="msc-chemistry">M.Sc. Chemistry</button></li>
+                <li><button class="course-btn" data-course="msc-mathematics">M.Sc. Mathematics</button></li>
+                <li><button class="course-btn" data-course="msc-physics">M.Sc. Physics</button></li>
+            </ul>
+            <h3 class="text-xl font-bold text-blue-800 mt-6 mb-2">Public Health</h3>
+            <ul class="list-disc ml-6 text-gray-700 space-y-2">
+                <li><button class="course-btn" data-course="msc-public-health">M.Sc. Public Health</button></li>
+            </ul>
         </div>
     </div>
     <div class="text-center mt-12">
