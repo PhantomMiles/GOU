@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Admission Form - Tailwind Styled</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="icon" href="img/logo2.png" type="image/png">
+  <script src="https://kit.fontawesome.com/d2a04fa078.js" crossorigin="anonymous"></script>
+</head>
+<body class="bg-gray-50 text-gray-900">
+  <header class="bg-white shadow">
+    <div class="max-w-7xl mx-auto py-4 px-6 flex items-center justify-between">
+      <div class="flex items-center space-x-4">
+        <img src="img/logo2.png" alt="Godfrey Okoye University Logo" class="h-12 w-auto">
+        <h1 class="text-xl md:text-2xl font-bold text-blue-900">Godfrey Okoye University - Admission Form</h1>
+      </div>
+    </div>
+  </header>
+  <!-- Combined Form in Two Columns -->
+  <section class="bg-gray-100 py-12 px-4 md:px-8">
+    <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
+
+      <!-- Personal Details Form -->
+            <div class="bg-white rounded-xl shadow-md p-6">
+        <h2 class="text-2xl font-bold text-blue-900 mb-4 text-center">Personal Details</h2>
+        <form>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div>
+              <label class="block text-gray-700 font-medium mb-1">First Name</label>
+              <input type="text" name="fname" placeholder="Enter first name" class="w-full border border-gray-300 rounded-md px-4 py-2" />
+            </div>
+            <div>
+              <label class="block text-gray-700 font-medium mb-1">Middle Name</label>
+              <input type="text" name="mname" placeholder="Enter middle name" class="w-full border border-gray-300 rounded-md px-4 py-2" />
+            </div>
+            <div>
+              <label class="block text-gray-700 font-medium mb-1">Last Name</label>
+              <input type="text" name="lname" placeholder="Enter last name" class="w-full border border-gray-300 rounded-md px-4 py-2" />
+            </div>
+            <div>
+              <label class="block text-gray-700 font-medium mb-1">Gender</label>
+              <select name="gender" class="w-full border border-gray-300 rounded-md px-4 py-2">
+                <option value="">--Select Gender--</option>
+                <option>Male</option>
+                <option>Female</option>
+                <option>Other</option>
+              </select>
+            </div>
+            <div>
+              <label class="block text-gray-700 font-medium mb-1">Date of Birth</label>
+              <input type="date" name="dob" class="w-full border border-gray-300 rounded-md px-4 py-2" />
+            </div>
+            <div>
+              <label class="block text-gray-700 font-medium mb-1">Age</label>
+              <input type="number" name="age" placeholder="Age" class="w-full border border-gray-300 rounded-md px-4 py-2" />
+            </div>
+            <div>
+              <label class="block text-gray-700 font-medium mb-1">Email Address</label>
+              <input type="email" name="email" placeholder="Enter email" class="w-full border border-gray-300 rounded-md px-4 py-2" />
+            </div>
+            <div>
+              <label class="block text-gray-700 font-medium mb-1">Phone Number</label>
+              <input type="tel" name="phone" placeholder="Enter phone number" class="w-full border border-gray-300 rounded-md px-4 py-2" />
+            </div>
+            <div>
+              <label class="block text-gray-700 font-medium mb-1">State of Origin</label>
+              <select name="state" class="w-full border border-gray-300 rounded-md px-4 py-2">
+                <option value="">--Select--</option>
+                <option>Abia</option>
+                <option>Adamawa</option>
+                <option>Akwa Ibom</option>
+                <option>Anambra</option>
+                <option>Bauchi</option>
+                <option>Bayelsa</option>
+                <option>Benue</option>
+                <option>Borno</option>
+                <option>Cross River</option>
+                <option>Delta</option>
+                <option>Ebonyi</option>
+                <option>Edo</option>
+                <option>Ekiti</option>
+                <option>Enugu</option>
+                <option>Gombe</option>
+                <option>Imo</option>
+                <option>Jigawa</option>
+                <option>Kaduna</option>
+                <option>Kano</option>
+                <option>Katsina</option>
+                <option>Kebbi</option>
+                <option>Kogi</option>
+                <option>Kwara</option>
+                <option>Lagos</option>
+                <option>Nasarawa</option>
+                <option>Niger</option>
+                <option>Ogun</option>
+                <option>Ondo</option>
+                <option>Osun</option>
+                <option>Oyo</option>
+                <option>Plateau</option>
+                <option>Rivers</option>
+                <option>Sokoto</option>
+                <option>Taraba</option>
+                <option>Yobe</option>
+                <option>Zamfara</option>
+                <option>FCT</option>
+              </select>
+            </div>
+            <div>
+              <label class="block text-gray-700 font-medium mb-1">Local Government Area</label>
+              <input type="text" name="lga" placeholder="Enter LGA" class="w-full border border-gray-300 rounded-md px-4 py-2" />
+            </div>
+            <div>
+              <label class="block text-gray-700 font-medium mb-1">Religion</label>
+              <select name="religion" class="w-full border border-gray-300 rounded-md px-4 py-2">
+                <option value="">--Select Religion--</option>
+                <option>Christianity</option>
+                <option>Islam</option>
+                <option>Traditional</option>
+                <option>Other</option>
+              </select>
+            </div>
+            <div>
+              <label class="block text-gray-700 font-medium mb-1">Residential Address</label>
+              <input type="text" name="address" placeholder="Enter full address" class="w-full border border-gray-300 rounded-md px-4 py-2" />
+            </div>
+            <div>
+              <label class="block text-gray-700 font-medium mb-1">Father's Full Name</label>
+              <input type="text" name="father_name" placeholder="Enter father's name" class="w-full border border-gray-300 rounded-md px-4 py-2" />
+              <
+          </div>
+         
+        </form>
+      </div>
+      <!-- Academic Details Form -->
+      <div class="bg-white rounded-xl shadow-md p-6">
+        <h2 class="text-2xl font-bold text-blue-900 mb-4 text-center">Academic Details</h2>
+        <form>
+          <div id="subjects-container" class="space-y-4">
+            <!-- JS will populate subjects here -->
+          </div>
+          
+        </form>
+      </div>
+    </div>
+    <div class="text-center pt-6">
+      <button type="submit" class="bg-blue-700 text-white px-10 py-3 rounded-full hover:bg-darkBlue transition font-semibold">
+        Submit Application
+      </button>
+    </div>
+  </section>
+
+  <!-- JS for populating subjects -->
+  <script>
+    const subjects = [
+      "Mathematics", "English Language", "Biology", "Physics", "Chemistry",
+      "Agricultural Science", "Economics", "Commerce", "Accounting", "Literature in English",
+      "Government", "Civic Education", "Christian Religious Studies", "Islamic Religious Studies",
+      "Geography", "Further Mathematics", "Technical Drawing", "Computer Studies", "Visual Arts",
+      "French", "Igbo", "Yoruba", "Hausa", "Food and Nutrition", "Home Management",
+      "Data Processing", "Building Construction", "Woodwork", "Metal Work", "Auto Mechanics",
+      "Music", "Dyeing and Bleaching", "Painting and Decoration", "Store Management",
+      "Tourism", "Health Education"
+    ];
+
+    const grades = ["A1", "B2", "B3", "C4", "C5", "C6", "D7", "E8", "F9"];
+    const exams = ["WAEC", "NECO", "GCE", "IGCSE"];
+
+    const container = document.getElementById("subjects-container");
+    for (let i = 1; i <= 9; i++) {
+      const row = document.createElement("div");
+      row.className = "grid grid-cols-1 md:grid-cols-3 gap-4";
+
+      const subjectSelect = document.createElement("select");
+      subjectSelect.name = `subject${i}`;
+      subjectSelect.className = "w-full border border-gray-300 rounded-md px-4 py-2";
+      const subjectPlaceholder = document.createElement("option");
+      subjectPlaceholder.value = "";
+      subjectPlaceholder.textContent = "Select Subject";
+      subjectPlaceholder.disabled = true;
+      subjectPlaceholder.selected = true;
+      subjectSelect.appendChild(subjectPlaceholder);
+      subjects.forEach(sub => {
+        const option = document.createElement("option");
+        option.value = sub;
+        option.textContent = sub;
+        subjectSelect.appendChild(option);
+      });
+
+      const examSelect = document.createElement("select");
+      examSelect.name = `exam_type${i}`;
+      examSelect.className = "w-full border border-gray-300 rounded-md px-4 py-2";
+      const examPlaceholder = document.createElement("option");
+      examPlaceholder.value = "";
+      examPlaceholder.textContent = "Select Exam Type";
+      examPlaceholder.disabled = true;
+      examPlaceholder.selected = true;
+      examSelect.appendChild(examPlaceholder);
+      exams.forEach(ex => {
+        const option = document.createElement("option");
+        option.value = ex;
+        option.textContent = ex;
+        examSelect.appendChild(option);
+      });
+
+      const gradeSelect = document.createElement("select");
+      gradeSelect.name = `grade${i}`;
+      gradeSelect.className = "w-full border border-gray-300 rounded-md px-4 py-2";
+      const gradePlaceholder = document.createElement("option");
+      gradePlaceholder.value = "";
+      gradePlaceholder.textContent = "Select Grade";
+      gradePlaceholder.disabled = true;
+      gradePlaceholder.selected = true;
+      gradeSelect.appendChild(gradePlaceholder);
+      grades.forEach(gr => {
+        const option = document.createElement("option");
+        option.value = gr;
+        option.textContent = gr;
+        gradeSelect.appendChild(option);
+      });
+
+      row.appendChild(subjectSelect);
+      row.appendChild(examSelect);
+      row.appendChild(gradeSelect);
+      container.appendChild(row);
+    }
+  </script>
+
+</body>
+</html>

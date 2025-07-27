@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Admission Form - Tailwind Styled</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="icon" href="img/logo2.png" type="image/png">
+  <script src="https://kit.fontawesome.com/d2a04fa078.js" crossorigin="anonymous"></script>
+</head>
+<body class="bg-gray-50 text-gray-900">
+
+  <section class="bg-gray-50 py-12 px-4 md:px-8">
+    <div class="max-w-6xl mx-auto bg-white rounded-xl shadow-md p-8 space-y-12">
+
+      <!-- Section Header -->
+      <div class="text-center">
+        <h1 class="text-4xl font-bold text-blue-900">Application Form</h1>
+        <p class="text-lg text-gray-600 mt-2">All fields are required</p>
+      </div>
+
+      <!-- Personal Information -->
+      <div>
+        <h2 class="text-2xl font-semibold text-blue-800 mb-6">Personal Information</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div>
+            <label class="block text-gray-700 font-medium mb-1">First Name</label>
+            <input type="text" name="fname" placeholder="Enter first name" class="w-full border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500" />
+          </div>
+          <div>
+            <label class="block text-gray-700 font-medium mb-1">Last Name</label>
+            <input type="text" name="lname" placeholder="Enter last name" class="w-full border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500" />
+          </div>
+          <div>
+            <label class="block text-gray-700 font-medium mb-1">Date of Birth</label>
+            <input type="date" name="dob" class="w-full border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500" />
+          </div>
+          <div>
+            <label class="block text-gray-700 font-medium mb-1">Age</label>
+            <input type="number" name="age" placeholder="Age" class="w-full border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500" />
+          </div>
+          <div>
+            <label class="block text-gray-700 font-medium mb-1">State of Origin</label>
+            <select name="state" class="w-full border border-gray-300 rounded-md px-4 py-2">
+              <option value="">--Select--</option>
+              <option>Abia</option>
+              <option>Anambra</option>
+              <option>Enugu</option>
+              <option>Imo</option>
+              <option>Ebonyi</option>
+              <option>Delta</option>
+              <option>Rivers</option>
+              <option>Akwa Ibom</option>
+              <option>Cross River</option>
+              <option>Bayelsa</option>
+              <option>Benue</option>
+              <option>Kogi</option>
+              <option>Niger</option>
+              <option>Kwara</option>
+              <option>Oyo</option>
+              <option>Osun</option>
+              <option>Ondo</option> 
+              <option>Lagos</option>
+              <option>Ogun</option>
+              <option>Ekiti</option>
+              <option>Kano</option>
+              <option>Kaduna</option>
+              <option>Zamfara</option>
+              <option>Sokoto</option>
+              <option>Jigawa</option>
+              <option>Bauchi</option>
+              <option>Gombe</option>
+              <option>Yobe</option>
+              <option>Borno</option>
+              <option>Adamawa</option>
+              <option>Taraba</option>
+              <option>Plateau</option>
+              <option>Nassarawa</option>
+              <option>FCT</option>
+            </select>
+          </div>
+          <div>
+            <label class="block text-gray-700 font-medium mb-1">LGA</label>
+            <select name="lga" class="w-full border border-gray-300 rounded-md px-4 py-2">
+              <option value="">--Select--</option>
+              <option>Awka North</option>
+              <option>Awka South</option>
+              <option>Onitsha North</option>
+              <option>Onitsha South</option>
+              <option>Ogbaru</option>
+              <option>Idemili North</option>
+              <option>Idemili South</option>
+              <option>Njikoka</option>
+              <option>Oyi</option>
+              <option>Ogbaru</option>
+              <option>Ayamelum</option>
+              <option>Anaocha</option>
+              <option>Nsukka</option>
+              <option>Enugu North</option>
+              <option>Enugu South</option>
+              <option>Enugu East</option>
+              <option>Udi</option>
+              <option>Uzo Uwani</option>
+              <option>Igbo Etiti</option>
+              <option>Igbo Eze North</option>
+              <option>Igbo Eze South</option>
+              <option>Isi Uzo</option>
+              <option>Oji River</option>
+              <option>Enugu West</option>
+              <option>Obi</option>
+              <option>Obollo Afor</option>
+              <option>Udenu</option>
+              <option>Uzo Uwani</option>
+              <option>Orlu</option>
+              <option>Oru West</option>
+              <option>Oru East</option>
+              <option>Njaba</option>
+              <option>Isu</option>
+              <option>Ideato North</option>
+              <option>Ideato South</option>
+              <option>Okigwe</option>
+              <option>Onuimo</option>
+              <option>Isiala Mbano</option>
+              <option>Okigwe</option>
+              <option>Mbaitoli</option>
+              <option>Ikeduru</option>
+              <option>Ngor Okpala</option>
+              <option>Owerri North</option>
+              <option>Owerri West</option>
+              <option>Owerri Municipal</option>
+              <option>Asaba</option>
+              <option>Warri North</option>
+              <option>Warri South</option>
+              <option>Warri South West</option>
+              <option>Ethiope East</option>
+              <option>Ethiope West</option>
+              <option>Udu</option>
+              <option>Ughelli North</option>
+              <option>Ughelli South</option>
+              <option>Bomadi</option>
+              <option>Burutu</option>
+              <option>Patani</option>
+              <option>Brass</option>
+              <option>Yenagoa</option>
+              <option>Sagbama</option>
+              <option>Kolokuma/Opokuma</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <!-- Academic Details -->
+      <div>
+        <h2 class="text-2xl font-semibold text-blue-800 mb-6">Academic Details</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div class="space-y-4">
+            <label class="block text-gray-700 font-medium mb-1">Subject</label>
+            <select class="w-full border border-gray-300 rounded-md px-4 py-2">
+              <option>Mathematics</option>
+              <option>English</option>
+              <option>Biology</option>
+              <option>Chemistry</option>
+              <option>Physics</option>
+              <option>Economics</option>
+              <option>Government</option>
+              <option>History</option>
+              <option>Geography</option>
+              <option>Literature in English</option>
+              <option>Commerce</option>
+              <option>Accounting</option>
+              <option>Music</option>
+              <option>Computer Studies</option>
+              <option>Further Mathematics</option>
+              <option>Technical Drawing</option>
+              <option>Christian Religious Studies</option>
+              <option>Data Processing</option>
+              <option>Food and Nutrition</option>
+              <option>Visual Arts</option>
+              <option>Agricultural Science</option>
+              <option>Government and Politics</option>
+              <option>Islamic Religious Studies</option>
+              <option>French</option>
+              <option>Igbo</option>
+              <option>Yoruba</option>
+              <option>Hausa</option>
+              <option>Arabic</option>
+            </select><select class="w-full border border-gray-300 rounded-md px-4 py-2">
+              <option>Mathematics</option>
+              <option>English</option>
+              <option>Biology</option>
+              <option>Chemistry</option>
+              <option>Physics</option>
+              <option>Economics</option>
+              <option>Government</option>
+              <option>History</option>
+              <option>Geography</option>
+              <option>Literature in English</option>
+              <option>Commerce</option>
+              <option>Accounting</option>
+              <option>Music</option>
+              <option>Computer Studies</option>
+              <option>Further Mathematics</option>
+              <option>Technical Drawing</option>
+              <option>Christian Religious Studies</option>
+              <option>Data Processing</option>
+              <option>Food and Nutrition</option>
+              <option>Visual Arts</option>
+              <option>Agricultural Science</option>
+              <option>Government and Politics</option>
+              <option>Islamic Religious Studies</option>
+              <option>French</option>
+              <option>Igbo</option>
+              <option>Yoruba</option>
+              <option>Hausa</option>
+              <option>Arabic</option>
+            </select>
+          </div>
+          <div>
+            <label class="block text-gray-700 font-medium mb-1">Exam Type</label>
+            <select class="w-full border border-gray-300 rounded-md px-4 py-2">
+              <option>WAEC</option>
+              <option>NECO</option>
+              <option>GCE</option>
+            </select>
+          </div>
+          <div>
+            <label class="block text-gray-700 font-medium mb-1">Grade</label>
+            <select class="w-full border border-gray-300 rounded-md px-4 py-2">
+              <option>A1</option>
+              <option>B2</option>
+              <option>B3</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <!-- Submit -->
+      <div class="text-center pt-6">
+        <button class="bg-blue-700 text-white px-10 py-3 rounded-full hover:bg-blue-800 transition font-semibold">
+          Submit Application
+        </button>
+      </div>
+
+    </div>
+  </section>
+
+</body>
+</html>
