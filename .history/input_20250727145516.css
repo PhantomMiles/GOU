@@ -152,16 +152,7 @@ ul#tel {
     background-position: center; 
 }
 .news-hero-section { 
-    background-image: url('../img/GOU4.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-blend-mode: darken;
-    background-color: rgba(0, 0, 0, 0.678); 
-    background-position: center; 
-}
-.events-hero-section { 
-    background-image: url('../img/slider7.jpg');
+    background-image: url('../img/slider.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
