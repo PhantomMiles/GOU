@@ -170,8 +170,7 @@ ul#tel {
     background-position: center; 
 }
 .faq-hero-section { 
-    background-image: url('../img/img.jpg');
-    background-repeat: no-repeat;
+img    background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     background-blend-mode: darken;

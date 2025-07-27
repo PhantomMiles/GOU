@@ -168,9 +168,8 @@ ul#tel {
     background-blend-mode: darken;
     background-color: rgba(0, 0, 0, 0.678); 
     background-position: center; 
-}
-.faq-hero-section { 
-    background-image: url('../img/img.jpg');
+}.events-hero-section { 
+    background-image: url('../img/slider7.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
