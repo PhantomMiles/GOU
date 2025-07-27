@@ -110,15 +110,7 @@
   <script>
     document.getElementById('mobile-menu-btn').addEventListener('click', function () {
       var menu = document.getElementById('mobile-menu');
-      menu.classList.toggle('show');
-    });
-  
-    // Animate hero section on load
-    window.addEventListener('DOMContentLoaded', function () {
-      var hero = document.querySelector('.hero-animate');
-      if (hero) {
-        hero.style.animationDelay = '0.2s';
-      }
+      menu.classList.toggle('hidden');
     });
   </script>
   
