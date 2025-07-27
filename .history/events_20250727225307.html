@@ -49,7 +49,7 @@
   </header>
 
     <!-- Hero Section -->
-    <section class="bg-blue-900 text-white text-center py-20 events-hero-section hero-animate">
+    <section class="bg-blue-900 text-white text-center py-20 events-hero-section heroanimate">
         <h1 class="text-4xl md:text-5xl font-bold mb-4">University Events</h1>
         <p class="text-lg md:text-xl">Stay up to date with the latest happenings at Godfrey Okoye University</p>
     </section>
@@ -169,10 +169,7 @@
   
     // Animate hero section on load
     window.addEventListener('DOMContentLoaded', function () {
-      var hero = document.querySelector('.hero-animate');
-      if (hero) {
-        hero.style.animationDelay = '0.2s';
-      }
+      document.querySelector('.hero-animate').style.animationDelay = '0.2s';
     });
   </script>
 </body>
