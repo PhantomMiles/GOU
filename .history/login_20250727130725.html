@@ -105,32 +105,64 @@
             </div>
         </div>
     </section>
-    <footer class="bg-blackRock text-white py-10">
-    <div class="container mx-auto px-6 grid md:grid-cols-3 gap-10">
-      <div>
-        <img src="img/logo-white.png" class="h-16 mb-4" alt="">
-        <p>&copy; Godfrey Okoye University 2025. All rights reserved.</p>
-      </div>
-      <div>
-        <h4 class="font-bold mb-4">Quick Links</h4>
-        <ul class="space-y-2">
-          <li><a href="index.html" class="hover:text-blue-300">Home</a></li>
-          <li><a href="about.html" class="hover:text-blue-300">About</a></li>
-          <li><a href="courses.html" class="hover:text-blue-300">Courses</a></li>
-          <li><a href="faq.html" class="hover:text-blue-300">FAQs</a></li>
-        </ul>
-      </div>
-      <div>
-        <h4 class="font-bold mb-4">Contact Us</h4>
-        <p>Email: info@gouni.edu.ng</p>
-        <p>Phone: 09134273215, 09121963049</p>
-        <div class="flex mt-4 space-x-4">
-          <a href="https://facebook.com"><i class="fab fa-facebook text-xl"></i></a>
-          <a href="https://twitter.com"><i class="fab fa-twitter text-xl"></i></a>
-          <a href="https://instagram.com"><i class="fab fa-instagram text-xl"></i></a>
+    <footer class="bg-veryDarkBlue">
+        <!-- Flex container -->
+        <div class="container flex flex-col-reverse justify-between px-6 py-10 mx-auto space-y-8 md:flex-row md:space-y-0">
+            <!-- Logo and social links container -->
+            <div class="flex flex-col-reverse items-center justify-between space-y-12 md:flex-col md:space-y-0 md:items-start">
+                <div class="mx-auto my-6 text-center text-white md:hidden">Copyright &copy; Godfrey Okoye University 2022, All Rights Reserved</div>
+                <!-- Logo -->
+                <div>
+                    <img src="img/logo-white.png" alt="" class="h-20 mt-10 md:block">
+                </div>
+                <!-- Social lInks container -->
+                <div class="flex justify-center space-x-4">
+                    <!-- Link 1 -->
+                    <a href="www.facebook.com"><img src="img/icon-facebook.svg" alt="" class="h-8"></a>
+                    <!-- Link 2 -->
+                    <a href="www.youtube.com"><img src="img/icon-youtube.svg" alt="" class="h-8"></a>
+                    <!-- Link 3 -->
+                    <a href="www.twitter.com"><img src="img/icon-twitter.svg" alt="" class="h-8"></a>
+                    <!-- Link 4 -->
+                    <a href="www.pinterest.com"><img src="img/icon-pinterest.svg" alt="" class="h-8"></a>
+                    <!-- Link 5 -->
+                    <a href="www.instagram.com"><img src="img/icon-instagram.svg" alt="" class="h-8"></a>
+                </div>
+            </div>
+            <!-- List container -->
+            <div class="flex justify-around space-x-32" id="nav2">
+                <div class="flex flex-col space-y-3 text-white">
+                    <a href="student_dashboard.html" class="font-bold hover:text-lightSteelBlue">Your Profile</a>
+                    <a href="index.html" class="font-bold hover:text-lightSteelBlue">Home</a>
+                    <a href="events.html" class="font-bold hover:text-lightSteelBlue">Events</a>
+                    <a href="news.html" class="font-bold hover:text-lightSteelBlue">News</a>
+                    <a href="about.html" class="font-bold hover:text-lightSteelBlue">About</a>
+                </div>
+                <div class="flex flex-col space-y-3 text-white">
+                    <a href="archive.html" class="font-bold hover:text-lightSteelBlue">Archive</a>
+                    <a href="courses.html" class="font-bold hover:text-lightSteelBlue">Courses</a>
+                    <a href="forum.html" class="font-bold hover:text-lightSteelBlue">Forums</a>
+                    <a href="faq.html" class="font-bold hover:text-lightSteelBlue">FAQs</a>
+                </div>
+            </div>
+            <!-- Input Container -->
+            <div class="flex flex-col justify-between">
+                <form action="info@gouni.edu.ng">
+                    <div class="flex space-x-3">
+                        <input type="text" name="" id="" class="flex-1 w-1 px-4 rounded-full focus:outline-none" placeholder="Send us an email"> <button class="px-6 py-2 font-bold text-white rounded-full bg-royalBlue hover:bg-blueGray focus:outline:none">Send</button>
+                    </div>
+                </form>
+                <div class="hidden text-white md:block md:mt-5"> Contact us on the following lines:</div>
+                <div class="hidden text-white md:block md:mt-2">
+                    <ul id="tel" class="ml-5">
+                        <li>09134273215</li>
+                        <li>09121963049</li>
+                        <li>07061756730</li>
+                    </ul>
+                </div>
+                <div class="hidden text-white md:block md:mt-2">&copy; Godfrey Okoye University 2022, All Rights Reserved</div>
+            </div>
         </div>
-      </div>
-    </div>
     </footer>
 </body>
 
